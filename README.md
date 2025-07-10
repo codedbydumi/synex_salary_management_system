@@ -1,5 +1,4 @@
 
-```markdown
 # 💼 Synex Industries - Salary Management System
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
@@ -30,41 +29,42 @@
 
 The 2025 **Tkinter GUI version** brings a modern, intuitive interface to manage the entire salary process:
 
-- 💻 Multi-role login system with secure password authentication
-- 📊 Real-time salary sheet generation, tax analysis, and profit reports
-- 🗂️ Integrated file viewer for browsing reports
-- ⚙️ Owner dashboard for managing users, professions, and configurations
+- 💻 Multi-role login system with secure password authentication  
+- 📊 Real-time salary sheet generation, tax analysis, and profit reports  
+- 🗂️ Integrated file viewer for browsing reports  
+- ⚙️ Owner dashboard for managing users, professions, and configurations  
 
-> 🎯 GUI roles:
-> - **Owner**: Full access (manage users, employees, settings)
-> - **Admin**: Employee & salary management
-> - **User**: Personal profile and salary access
+**Roles:**
+- **Owner:** Full access (manage users, employees, system settings)  
+- **Admin:** Employee & salary management  
+- **User:** Profile view and personal salary info  
 
 ---
 
 ## 🚀 Features
 
-- **User Login & Role Permissions**
-- **Profession & Daily Rate Management**
-- **Employee Work Tracking**
-- **Salary Sheet Generation**
-- **Tax Deduction & Profit Calculation**
-- **Monthly & Yearly Reports**
-- **Report Viewer + File Manager**
-- **CLI & GUI Versions Included**
+- User Authentication (Owner / Admin / User)
+- Profession & Daily Rate Management
+- Employee Attendance & Work Tracking
+- Salary Sheet Generation
+- Monthly Tax Calculation
+- Company Profit Analysis
+- Yearly and Monthly Salary Reports
+- File Manager + Report Viewer
+- CLI and GUI Versions Included
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer         | Tech               |
-|---------------|--------------------|
-| Language      | Python 3.x         |
-| GUI Framework | Tkinter            |
-| Backend DB    | MySQL              |
-| Storage       | Text/CSV Files     |
-| Reporting     | Custom Logic       |
-| Packaging     | MySQL Connector, OS, CSV, etc. |
+| Layer         | Technology          |
+|---------------|---------------------|
+| Language      | Python 3.x          |
+| GUI Framework | Tkinter             |
+| Database      | MySQL               |
+| File I/O      | CSV / TXT           |
+| Reporting     | Custom Python Logic |
+| Connector     | mysql-connector-python |
 
 ---
 
@@ -72,21 +72,23 @@ The 2025 **Tkinter GUI version** brings a modern, intuitive interface to manage 
 
 ```
 
-salary-management-system/
-├── cli\_version/              # Console-based version (2022)
-├── gui\_version/              # GUI version using Tkinter (2025)
+synex\_salary\_management\_system/
+├── gui\_version/
+│   └── main\_gui.py
+├── cli\_version/
+│   └── main.py
 ├── assets/
-│   ├── screenshots/          # GUI/CLI screenshots
-│   ├── videos/               # Project demo videos
-│   └── database/             # MySQL DB dump (.sql)
-├── data/                     # Salary sheets, logs, outputs
-├── requirements.txt          # Python dependencies
-├── LICENSE
+│   ├── database/
+│   │   └── salary\_system.sql
+│   ├── screenshots/
+│   └── videos/
+├── data/
+├── requirements.txt
 └── README.md
 
 ````
 
-> 📌 **Note**: You’ll find the MySQL database schema inside `assets/database/salary_system.sql`
+> 📂 **Database file** is available inside: `assets/database/salary_system.sql`
 
 ---
 
@@ -102,41 +104,40 @@ salary-management-system/
 
 ## 🎥 Demo Videos
 
-- 🔹 [CLI Version Demo](assets/videos/cli_demo.mp4)
-- 🔹 [GUI Version Demo](assets/videos/gui_demo.mp4)
+- 🎬 [GUI Version Demo](assets/videos/gui_demo.mp4)
+- 🎬 [CLI Version Demo](assets/videos/cli_demo.mp4)
 
-*(For GitHub size limits, upload larger videos to YouTube and link here.)*
+> Tip: Upload large videos to YouTube and embed or link them here.
 
 ---
 
 ## 🔧 Setup Instructions
 
-### 📦 Prerequisites
+### 1️⃣ Requirements
 
-- Python 3.10+
-- MySQL Server
-- Python packages:
-  ```bash
-  pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
 ````
 
-### 🗄️ Database Setup
+> `tkinter` is included by default in Python.
+> MySQL must be installed and running.
 
-1. Start your MySQL server
-2. Import the schema file:
+### 2️⃣ Import Database
 
-   ```
-   assets/database/salary_system.sql
-   ```
+Import the provided SQL file into your MySQL server:
 
-### ▶️ Run GUI Version
+```
+assets/database/salary_system.sql
+```
+
+### 3️⃣ Run GUI Version
 
 ```bash
 cd gui_version
 python main_gui.py
 ```
 
-### ▶️ Run CLI Version
+### 4️⃣ Run CLI Version
 
 ```bash
 cd cli_version
@@ -147,16 +148,16 @@ python main.py
 
 ## 📌 Future Improvements
 
-* 📤 Export reports as PDFs
-* 🌐 Cloud-hosted database support
-* 🌙 Dark mode + theming
-* 📧 Email notifications for payslips
+* PDF report export
+* Cloud database support
+* Dark mode & UI themes
+* Email notifications for employees
 
 ---
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+Licensed under the [MIT License](LICENSE)
 
 ---
 
@@ -164,30 +165,14 @@ This project is licensed under the [MIT License](LICENSE).
 
 Made with ❤️ by [**codedbydumi**](https://github.com/codedbydumi)
 
----
-
 ```
 
 ---
 
-## ✅ Bonus: Add `requirements.txt`
+Let me know if you'd like:
+- A matching `LICENSE` file (MIT, Apache, etc.)
+- Auto-generated badges for GitHub Actions or dependencies
+- Help adding a `requirements.txt` file
 
-Here’s a simple `requirements.txt` example if you haven’t created one yet:
-
-```
-
-mysql-connector-python
-
-```
-
-> *Note: `tkinter` comes with Python, so no need to include it in `requirements.txt`.*
-
----
-
-Would you like me to:
-- Convert this into a downloadable `.md` file?
-- Help with generating `LICENSE` or GitHub release notes?
-- Suggest a good cover banner or preview image?
-
-Let me know!
+You're almost ready for GitHub discovery. 🚀
 ```
