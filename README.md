@@ -8,7 +8,7 @@
 
 > A complete **Salary Management System** built with **Python (CLI + Tkinter GUI)** and **MySQL** for professional use at Synex Industries. From secure login and employee handling to tax computation, reporting, and salary analytics — it's all here.
 
-📌 The project includes both:
+## 📌 The project includes both:
 - A **CLI version** (developed in 2022)
 - An improved and feature-rich **GUI version** (completed in 2025)
 ---
