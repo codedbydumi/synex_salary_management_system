@@ -76,7 +76,7 @@ The 2025 **Tkinter GUI version** brings a modern, intuitive interface to manage 
 
 synex\_salary\_management\_system/
 ├── gui\_version/
-│   └── main\_gui.py
+│   └── main\_main.py
 ├── cli\_version/
 │   └── main.py
 ├── assets/
@@ -136,7 +136,7 @@ assets/database/salary_system.sql
 
 ```bash
 cd gui_version
-python main_gui.py
+python main.py
 ```
 
 ### 4️⃣ Run CLI Version
