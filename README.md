@@ -37,7 +37,7 @@ The 2025 **Tkinter GUI version** brings a modern, intuitive interface to manage 
 **Roles:**
 - **Owner:** Full access (manage users, employees, system settings)  
 - **Admin:** Employee & salary management  
-- **User:** Profile view and personal salary info  
+- **User:** Profile view and personal salary info  - Devoloping 
 
 ---
 
