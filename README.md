@@ -80,7 +80,7 @@ synex\_salary\_management\_system/
 │   └── main.py
 ├── assets/
 │   ├── database/
-│   │   └── salary\_system.sql
+│   │   └── synex_industries.sql
 │   ├── screenshots/
 │   └── videos/
 ├── data/
