@@ -80,7 +80,7 @@ synex\_salary\_management\_system/
 │   └── main.py
 ├── assets/
 │   ├── database/
-│   │   └── salary\_system.sql
+│   │   └── synex_industries.sql
 │   ├── screenshots/
 │   └── videos/
 ├── data/
@@ -160,14 +160,5 @@ python main.py
 
 Made with ❤️ by [**codedbydumi**](https://github.com/codedbydumi)
 
-```
 
----
 
-Let me know if you'd like:
-- A matching `LICENSE` file (MIT, Apache, etc.)
-- Auto-generated badges for GitHub Actions or dependencies
-- Help adding a `requirements.txt` file
-
-You're almost ready for GitHub discovery. 🚀
-```
