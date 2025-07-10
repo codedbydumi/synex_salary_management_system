@@ -4,7 +4,6 @@
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
 [![MySQL](https://img.shields.io/badge/Database-MySQL-brightgreen)](https://www.mysql.com/)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey)]()
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > A complete **Salary Management System** built with **Python (CLI + Tkinter GUI)** and **MySQL** for professional use at Synex Industries. From secure login and employee handling to tax computation, reporting, and salary analytics — it's all here.
 
