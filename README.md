@@ -106,7 +106,7 @@ synex\_salary\_management\_system/
 ## 🎥 Demo Videos
 
 - 🎬 [GUI Version Demo](assets/videos/gui_demo.mp4)
-- 🎬 [CLI Version Demo](assets/videos/cli_demo.mp4)
+- 🎬 [CLI Version Demo](assets/videos/Synex_project_cli_guide_video_2022.mp4)
 
 > Tip: Upload large videos to YouTube and embed or link them here.
 
