@@ -162,9 +162,3 @@ Made with ❤️ by [**codedbydumi**](https://github.com/codedbydumi)
 
 ```
 
-Let me know if you'd like:
-- A matching `LICENSE` file (MIT, Apache, etc.)
-- Auto-generated badges for GitHub Actions or dependencies
-- Help adding a `requirements.txt` file
-
-
