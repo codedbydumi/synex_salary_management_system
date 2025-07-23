@@ -79,11 +79,15 @@ class SynexIndustriesGUI:
         """Setup database connection"""
         try:
             self.connection = mysql.connector.connect(
-                host="localhost",
-                user="root",
-                passwd="",
-                database="synex_industries"
+                host="vps.duminduthushan.com",
+                user="synexuser",
+                passwd="synex123!",  # Use the correct password
+                database="synex_industries",
+        port=3306
             )
+     
+        
+
             self.cursor = self.connection.cursor()
         except mysql.connector.Error as err:
             messagebox.showerror("Database Error", f"Error connecting to database: {err}")
