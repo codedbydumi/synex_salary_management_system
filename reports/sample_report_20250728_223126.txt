@@ -1,0 +1,26 @@
+SYNEX INDUSTRIES - SAMPLE REPORT
+    Generated on: 2025-07-28 22:31:26
+    =====================================
+
+    This is a sample report file for testing the file viewer functionality.
+
+    EMPLOYEE SUMMARY:
+    - Total Employees: 50
+    - Active Employees: 45
+    - On Leave: 5
+
+    SALARY SUMMARY:
+    - Total Payroll: $125,000
+    - Average Salary: $2,500
+    - Highest Salary: $5,000
+    - Lowest Salary: $1,200
+
+    DEPARTMENT BREAKDOWN:
+    - IT Department: 15 employees
+    - Sales Department: 20 employees
+    - HR Department: 5 employees
+    - Finance Department: 10 employees
+
+    =====================================
+    End of Report
+    
