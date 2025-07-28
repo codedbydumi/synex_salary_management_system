@@ -78,10 +78,12 @@ class SynexIndustriesGUI:
     def setup_database(self):
         """Setup database connection"""
         try:
+            ## add your DB Connection to adding DB file to PHP My admin or You Can Install Software Easily in  "Release"
+            
             self.connection = mysql.connector.connect(
-                host="vps.duminduthushan.com",
+                host="",
                 user="synexuser",
-                passwd="synex123!",  # Use the correct password
+                passwd="",  # Use the correct password
                 database="synex_industries",
         port=3306
             )
